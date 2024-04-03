@@ -1,55 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GDScript_to_GDScript2.0</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #e6f2ff; /* Light blue background */
-    color: #333; /* Dark gray text */
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-  }
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  .logo {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333; /* Dark gray logo text */
-  }
-  .description {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #666; /* Medium gray description text */
-  }
-  .instructions {
-    color: #333; /* Dark gray instructions text */
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDScript_to_GDScript2.0</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f5fa; /* Light gray-blue background */
+      color: #333; /* Dark gray text */
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .headbar {
+      background-color: #445566; /* Dark blue-gray headbar background */
+      color: #fff; /* White text */
+      padding: 10px 0;
+    }
+    .navbar {
+      background-color: #556677; /* Medium blue-gray navbar background */
+      padding: 10px 0;
+    }
+    .navbar a {
+      color: #fff; /* White text for navbar links */
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: left;
+      background-color: #fff; /* White container background */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    }
+    .logo {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #445566; /* Dark blue-gray logo text */
+    }
+    .description {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #666; /* Medium gray description text */
+    }
+    .instructions {
+      color: #333; /* Dark gray instructions text */
+    }
+    /* Styles for subpages */
+    .subpage-content {
+      margin-top: 50px;
+    }
+    .subpage-content h1 {
+      color: #445566; /* Dark blue-gray heading text */
+    }
+    .subpage-content p {
+      color: #666; /* Medium gray paragraph text */
+    }
+    .bottom-bar {
+      background-color: #445566; /* Dark blue-gray bottom bar background */
+      color: #fff; /* White text */
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-  <div class="logo">
+  <div class="headbar">
     GDScript_to_GDScript2.0
   </div>
-  <div class="description">
-    Welcome to the GDScript to GDScript 2.0 conversion tool! This program assists in upgrading your GDScript code to the latest version, introducing new features and improvements.
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#download">Download</a>
+    <a href="#support">Support</a>
   </div>
-  <div class="instructions">
-    <p>To get started:</p>
-    <ol>
-      <li>Input your GDScript code into the tool.</li>
-      <li>Follow the prompts to apply suggested changes and optimizations.</li>
-      <li>Review the converted code and make any necessary adjustments.</li>
-      <li>Enjoy the enhanced features and performance of GDScript 2.0!</li>
-    </ol>
+  <div class="container">
+    <div class="logo">
+      GDScript_to_GDScript2.0
+    </div>
+    <div class="description">
+      Welcome to the GDScript to GDScript 2.0 conversion tool! This program assists in upgrading your GDScript code to the latest version, introducing new features and improvements.
+    </div>
+    <div class="instructions">
+      <p>To get started:</p>
+      <ol>
+        <li>Input your GDScript code into the tool.</li>
+        <li>Follow the prompts to apply suggested changes and optimizations.</li>
+        <li>Review the converted code and make any necessary adjustments.</li>
+        <li>Enjoy the enhanced features and performance of GDScript 2.0!</li>
+        <p> 
+        <a>[please notice that the translation is not always to 100% correct]</a>
+      </ol>
+    </div>
   </div>
-</div>
+
+  <!-- About Page -->
+  <div class="container subpage-content" id="about">
+    <h1>About This project</h1>
+    <p>The project aims to improve the reusability of code from Godot 3 in Godot 4, thereby making it easier to translate by hand. With the present name changes from Godot 3 to Godot4, scripts can be easily translated and developers can save time and effort, resulting in faster development and fewer errors.</p>
+  </div>
+
+  <!-- Download Page -->
+  <div class="container subpage-content" id="download">
+    <h1>Download</h1>
+    <p>Itch.io:</p>
+    <a href="https://kre15i.itch.io/gdscript-to-gdscript20">itch.io/gdscript-to-gdscript2.0</a>
+    <p>GitHub:</p>
+    <a>COMMING SOON</a>
+  </div>
+
+  <!-- Support Page -->
+  <div class="container subpage-content" id="support">
+    <h1>Support</h1>
+    <p>You can donate on Itch.io: </p>
+    
+	<a href="https://kre15i.itch.io/gdscript-to-gdscript20">itch.io/gdscript-to-gdscript2.0</a>
+
+  </div>
+
+  <div class="bottom-bar">
+     2024 by KRE15i.
+  </div>
+
 </body>
 </html>
